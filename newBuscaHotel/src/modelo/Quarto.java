@@ -43,16 +43,7 @@ public abstract class Quarto {
 					else if (inicio.isBefore(r.getDiaSaida()) && fim.isAfter(r.getDiaSaida()))
 						verificar = 0;
 					else if (inicio.isBefore(r.getDiaEntrada()) && fim.isBefore(r.getDiaSaida()))
-						verificar = 0;				
-	
-//				if ((inicio == r.getDiaEntrada() || fim == r.getDiaSaida()))
-//						verificar = 0;
-//					else if (inicio < r.getDiaEntrada() && fim > r.getDiaSaida())
-//						verificar = 0;
-//						else if (inicio < r.getDiaSaida() && fim > r.getDiaSaida())
-//							verificar = 0;
-//						else if (inicio > r.getDiaEntrada() && fim < r.getDiaSaida())
-//							verificar = 0;				
+						verificar = 0;								
 		
 		}
 			if(verificar == 1)

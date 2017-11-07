@@ -44,6 +44,7 @@ public class Teste {
 		
 	}
 	
+	
 	static void geraHoteis(Controlador c) {
 		Hotel h1 = new Hotel("Tambau", "João Pessoa", 5.5f, 120f, 200f, 300f, 400f);
 		Hotel h2 = new Hotel("Cabo Branco", "João Pessoa", 4.5f, 110f, 220f, 330f, 440f);
